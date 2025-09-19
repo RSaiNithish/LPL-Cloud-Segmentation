@@ -15,7 +15,7 @@ All experiments are numbered and implemented as separate scripts:
 | **5.2.brightness_masking.py** | Brightness Masking | Identifies cloud pixels based on brightness (whiteness assumption). |
 | **5.3.flood_filling.py** | Flood Filling | Region growing starting from brightest pixel, expanding until threshold. |
 | **5.4.processed_flood_filling.py** | Processed Flood Filling | Enhanced flood filling with preprocessing for smoother masks. |
-| **5.5.fmask\*.py** | Fmask | Implementation of the well-known **Fmask algorithm** for cloud masking. |
+| **5.5.nir.py** | **RGB + NIR Masking** | Uses **Red, Green, Blue, and NIR bands** to compute indices (e.g., NDVI, brightness) and separate clouds from surface/vegetation. |
 | **5.6.cloudnet.py** | Cloud-Net | Deep learning model (U-Net variant) trained for cloud segmentation. |
 | **5.7.aunet.py** | Attention U-Net | Advanced U-Net with attention mechanism for better feature focus. |
 
